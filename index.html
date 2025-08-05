@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garrepalli Sai Mani - AI Researcher & Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <span class="logo-text">Sai Mani</span>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#education" class="nav-link">Education</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#publications" class="nav-link">Research</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-highlight">Garrepalli</span>
+                        <span class="title-main">Sai Mani</span>
+                    </h1>
+                    <p class="hero-subtitle">Computer Science Graduate | Web Developer | Data Analyst | Aspiring Data Scientist | Published Author | Patent Holder</p>
+                    <p class="hero-description">I'm seeking opportunities to engage with challenging work that utilizes my technical experience in software development roles. I aim to build a career in data science where I can apply my technical knowledge to solve meaningful problems. I'm driven to continuously learn, work on impactful projects, and contribute to technology that creates real-world value.</p>
+                    
+                    <div class="hero-actions">
+                        <button class="btn btn--primary" onclick="scrollToSection('projects')">
+                            View My Work
+                        </button>
+                        <button class="btn btn--outline" onclick="scrollToSection('contact')">
+                            Get In Touch
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-photo">
+                        <div class="photo-placeholder">
+                            <img src="your-photo.jpg" alt="Sai Mani Photo" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about driving innovation through data, emerging technologies, and purpose-driven solutions that create real-world impact.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="card">
+                        <div class="card__body">
+                            <p style="color: #0f172a;">A motivated computer science graduate with a strong interest in building intelligent, impactful systems. During my academic journey, I explored a wide range of technical areas including programming, web development, and computer vision—gaining hands-on experience through project-based learning and internships.
+
+What truly drives me is the ability to extract meaningful insights from complex data and use those insights to solve real-world problems. From developing a face recognition attendance system to analyzing sentiment in regional memes, and several other academic and internship-based projects, each experience has helped me grow both technically and analytically. I enjoy blending logic, creativity, and technology to build solutions that are both practical and innovative.
+
+I’m continuously expanding my skill set in data science, machine learning, and visualization tools, aiming to contribute to data-driven solutions that make a measurable difference.</p>
+                            
+                            <div class="highlights">
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">🏆</div>
+                                    <div class="highlight-content">
+                                        <h4>IEEE Published Author</h4>
+                                        <p>Research published in multimodal sentiment analysis</p>
+                                    </div>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">🔬</div>
+                                    <div class="highlight-content">
+                                        <h4>UK Patent Holder</h4>
+                                        <p>AI-based breast cancer diagnostic device</p>
+                                    </div>
+                                </div>
+                                <div class="highlight-item">
+                                    <div class="highlight-icon">💻</div>
+                                    <div class="highlight-content">
+                                        <h4>Full Stack Developer</h4>
+                                        <p>Web development and blockchain expertise</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-sidebar">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Languages</h3>
+                            <div class="language-list">
+                                <div class="language-item">
+                                    <span class="language-name telugu">Telugu</span>
+                                    <span class="status status--success">Native</span>
+                                </div>
+                                <div class="language-item">
+                                    <span class="language-name english">English</span>
+                                    <span class="status status--success">Fluent</span>
+                                </div>
+                                <div class="language-item">
+                                    <span class="language-name hindi">Hindi</span>
+                                    <span class="status status--info">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Interests</h3>
+                            <div class="interests-list">
+                                <span class="interest-tag">Programming</span>
+                                <span class="interest-tag">Technology Trends</span>
+                                <span class="interest-tag">Competitive Sports</span>
+                                <span class="interest-tag">Gaming & Esports</span>
+                                <span class="interest-tag">Adventure Activities</span>
+                                <span class="interest-tag">Fitness</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">Strong academic foundation in computer science</p>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="card">
+                            <div class="card__body">
+                                <div class="education-header">
+                                    <div class="education-icon">🎓</div>
+                                    <div class="education-details">
+                                        <h3>Bachelor of Technology (B-Tech) in Computer Science Engineering</h3>
+                                        <h4>GITAM University, Visakhapatnam</h4>
+                                        <p class="duration">Oct 2021 – May 2025</p>
+                                        <div class="grade">
+                                            <span class="status status--success">CGPA: 8.03</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="card">
+                            <div class="card__body">
+                                <div class="education-header">
+                                    <div class="education-icon">📚</div>
+                                    <div class="education-details">
+                                        <h3>Intermediate Degree</h3>
+                                        <h4>Pinegrove Junior College, Hyderabad</h4>
+                                        <p class="duration">Jul 2019 – Jun 2021</p>
+                                        <div class="grade">
+                                            <span class="status status--success">Percentage: 92.4%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="card">
+                            <div class="card__body">
+                                <div class="education-header">
+                                    <div class="education-icon">🏫</div>
+                                    <div class="education-details">
+                                        <h3>10th Grade</h3>
+                                        <h4>Greenwood High School, Hanamkonda</h4>
+                                        <p class="duration">Jul 2018 – May 2019</p>
+                                        <div class="grade">
+                                            <span class="status status--info">Percentage: 83%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technical proficiency across multiple domains</p>
+            </div>
+            <div class="skills-grid">
+                <div class="card skill-category">
+                    <div class="card__body">
+                        <h3 class="skill-title">
+                            <span class="skill-icon">💻</span>
+                            Programming Languages
+                        </h3>
+                        <div class="skill-list">
+                            <div class="skill-item">Java</div>
+                            <div class="skill-item">C</div>
+                            <div class="skill-item">Python</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card skill-category">
+                    <div class="card__body">
+                        <h3 class="skill-title">
+                            <span class="skill-icon">🌐</span>
+                            Web Technologies
+                        </h3>
+                        <div class="skill-list">
+                            <div class="skill-item">HTML</div>
+                            <div class="skill-item">CSS</div>
+                            <div class="skill-item">JavaScript</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card skill-category">
+                    <div class="card__body">
+                        <h3 class="skill-title">
+                            <span class="skill-icon">🛠️</span>
+                            Tools & Platforms
+                        </h3>
+                        <div class="skill-list">
+                            <div class="skill-item">VS Code</div>
+                            <div class="skill-item">GitHub</div>
+                            <div class="skill-item">Power BI</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card skill-category">
+                    <div class="card__body">
+                        <h3 class="skill-title">
+                            <span class="skill-icon">👥</span>
+                            Soft Skills
+                        </h3>
+                        <div class="skill-list">
+                            <div class="skill-item">Leadership</div>
+                            <div class="skill-item">Problem Solving</div>
+                            <div class="skill-item">Team Collaboration</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects & Experience</h2>
+                <p class="section-subtitle">Innovative solutions and real-world applications</p>
+            </div>
+            <div class="projects-grid">
+                <div class="card project-card featured">
+                    <div class="card__body">
+                        <div class="project-header">
+                            <div class="project-icon">🧠</div>
+                            <div class="project-status">
+                                <span class="status status--success">Published Research</span>
+                            </div>
+                        </div>
+                        <h3>TelMeMood: Telugu Memes Sentiment Analysis</h3>
+                        <p>Groundbreaking multimodal research project analyzing text and image components of Telugu memes using advanced AI techniques. This capstone project contributed to a published IEEE research paper.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Computer Vision</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="duration">Sep 2024 - Apr 2025</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <div class="card__body">
+                        <div class="project-header">
+                            <div class="project-icon">🔐</div>
+                            <div class="project-status">
+                                <span class="status status--info">Completed</span>
+                            </div>
+                        </div>
+                        <h3>Blockchain-Based Voting System</h3>
+                        <p>Designed and implemented a secure voting system using blockchain technology to ensure tamper-proof results, focusing on simplicity and transparency.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Blockchain</span>
+                            <span class="tech-tag">Cryptography</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="duration">Aug 2024 - Sep 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <div class="card__body">
+                        <div class="project-header">
+                            <div class="project-icon">⚡</div>
+                            <div class="project-status">
+                                <span class="status status--info">Completed</span>
+                            </div>
+                        </div>
+                        <h3>Electric Vehicle Specifications Website</h3>
+                        <p>Developed a comprehensive website showcasing electric vehicle specifications, providing users with detailed information on various EV models.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="duration">May 2024 - Jun 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <div class="card__body">
+                        <div class="project-header">
+                            <div class="project-icon">📊</div>
+                            <div class="project-status">
+                                <span class="status status--info">Completed</span>
+                            </div>
+                        </div>
+                        <h3>Deloitte Data Analytics Simulation</h3>
+                        <p>Completed comprehensive data analysis and forensic technology simulation. Created interactive dashboards using Tableau and performed data classification.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">Tableau</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="duration">Professional Simulation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications & Patents Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Publications & Patents</h2>
+                <p class="section-subtitle">Contributing to technological advancement</p>
+            </div>
+            <div class="achievements-grid">
+                <div class="card achievement-card publication">
+                    <div class="card__body">
+                        <div class="achievement-header">
+                            <div class="achievement-icon">📄</div>
+                            <div class="achievement-badge">
+                                <span class="status status--success">IEEE Publication</span>
+                            </div>
+                        </div>
+                        <h3>TelMeMood: A Multimodal Dataset for Sentiment Analysis of Telugu Memes</h3>
+                        <p>Pioneering research in multimodal sentiment analysis combining computer vision and natural language processing for Telugu content analysis.</p>
+                        <div class="achievement-details">
+                            <div class="detail-item">
+                                <strong>Publisher:</strong> IEEE
+                            </div>
+                            <div class="detail-item">
+                                <strong>Date:</strong> April 22, 2025
+                            </div>
+                            <div class="detail-item">
+                                <strong>DOI:</strong> 10.1109/ISACC65211.2025.10969246
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card achievement-card patent">
+                    <div class="card__body">
+                        <div class="achievement-header">
+                            <div class="achievement-icon">🏆</div>
+                            <div class="achievement-badge">
+                                <span class="status status--warning">UK Patent</span>
+                            </div>
+                        </div>
+                        <h3>Artificial Intelligence-Based Breast Cancer Diagnostic Device</h3>
+                        <p>Innovative AI-powered medical diagnostic solution for early breast cancer detection using advanced machine learning algorithms and multimodal imaging.</p>
+                        <div class="achievement-details">
+                            <div class="detail-item">
+                                <strong>Patent No:</strong> UK 6415882
+                            </div>
+                            <div class="detail-item">
+                                <strong>Issued:</strong> January 14, 2025
+                            </div>
+                            <div class="detail-item">
+                                <strong>Type:</strong> Design Patent
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="certifications">
+                <h3>Professional Certifications</h3>
+                <div class="certifications-grid">
+                    <div class="cert-item">
+                        <span class="cert-name">IBM Full Stack Software Developer</span>
+                        <span class="cert-provider">Coursera</span>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-name">Web Development Internship</span>
+                        <span class="cert-provider">Teachnook</span>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-name">Cybersecurity and Hacking Internship</span>
+                        <span class="cert-provider">Innovate</span>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-name">Data Analysis with Python</span>
+                        <span class="cert-provider">Coursera</span>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-name">Data Visualization with R</span>
+                        <span class="cert-provider">Coursera</span>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-name">Java Programming: Arrays, Lists, and Structured Data</span>
+                        <span class="cert-provider">Coursera</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Extracurricular Activities -->
+            <div class="activities">
+                <h3>Extracurricular Activities</h3>
+                <div class="activities-list">
+                    <div class="activity-item">
+                        <div class="activity-icon">🌱</div>
+                        <div class="activity-content">
+                            <h4>NSS Campus Cleanup Drive</h4>
+                            <p>Participated in cleanup drive at GITAM University on 25th April 2023, targeting Gandhi Park. Spread awareness of environment and cleanliness.</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-icon">👨‍🏫</div>
+                        <div class="activity-content">
+                            <h4>NSS Zilla Parishad School Visit</h4>
+                            <p>Interacted with students in a Zilla Parishad school in Visakhapatnam. Taught and shared experiences, motivating students through meaningful interactions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's collaborate on innovative projects</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="card contact-card">
+                        <div class="card__body">
+                            <div class="contact-icon">📧</div>
+                            <h3>Email</h3>
+                            <p>saimanigarrepalli509@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="card contact-card">
+                        <div class="card__body">
+                            <div class="contact-icon">📱</div>
+                            <h3>Phone</h3>
+                            <p>7981133740</p>
+                        </div>
+                    </div>
+                    <div class="card contact-card">
+                        <div class="card__body">
+                            <div class="contact-icon">
+                                <a href="https://www.linkedin.com/in/your-profile-url" target="_blank" class="social-icon linkedin">
+                                  <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                            <h3>linkedin</h3>
+                            <p>Sai Mani Garrepalli</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <div class="card">
+                        <div class="card__body">
+                            <form class="contact-form" id="contact-form">
+                                <div class="form-group">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" class="form-control" placeholder="your.email@example.com" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Message</label>
+                                    <textarea class="form-control" rows="5" placeholder="Your message..." required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn--primary btn--full-width">
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Garrepalli Sai Mani. All rights reserved.</p>
+                <p>Built with modern web technologies and clean design principles</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
